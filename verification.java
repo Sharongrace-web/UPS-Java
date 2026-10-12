@@ -11,11 +11,7 @@ public class verification {
 		System.out.println("Enter Password:");
 		String password = sc.nextLine();
 		
-		if(username .equals (requsername) && password .equals (reqpassword)) {
-			System.out.println("Logged in");
-		} else {
-			System.out.println("Invalid Username or Password");
+		System.out.println((username.equals(requsername) && password.equals(reqpassword)) ? "Logged in" : "Invalid Username or Password");
 		}
 	}
 
-}
